@@ -12,10 +12,10 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_URL = os.getenv("API_URL")
-SPEAKER_ID = os.getenv("SPEAKER_ID")
-AUTHORIZATION_TOKEN = os.getenv("AUTHORIZATION_TOKEN")
+BOT_TOKEN = "6799265974:AAH_QWRUzcGXuTq-7JX3nD19lU1Qp2wv9AM"
+API_URL = "http://tts.ulut.kg/api/tts"
+SPEAKER_ID = "1"
+AUTHORIZATION_TOKEN = "Bearer lfRUZHFlLTht91Fg86AL1sVbcytXBs3vdhp17VTw2XA2a0pM5SAVWOr57KW4f3lL"
 MESSAGE_LIMIT = 1000  # Message length limit
 WORDS_FILE_PATH = "ky_words_mini_compact_no_repeat.txt"  # Path to the file containing words
 
