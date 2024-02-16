@@ -7,7 +7,9 @@ WORKDIR /usr/src/app/
 COPY . /usr/src/app/
 
 # install dependencies
-RUN pip install --user aiogram=2.23.1  python-dotenv requests
+RUN pip install aiogram==2.23.1  python-dotenv requests
+
+FROM ubuntu:latest as production
 
 # run app
 CMD ["python", "bot.py"]
